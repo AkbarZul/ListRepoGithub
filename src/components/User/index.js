@@ -11,20 +11,24 @@ const User = (props) => {
           <img src={prof.avatar_url} className="avatar" />
           <p>{prof.name}</p>
           <p>{prof.bio}</p>
-          <div>
-            <FaUsers className="icons" />
-            <p>{prof.company}</p>
-          </div>
-          <div>
-            <FaMapMarkedAlt className="icons" />
-            <p>{prof.location}</p>
-          </div>
-          <div>
-          <FaLink className="icons" />
-          <p>
-            {prof.blog}
-          </p>
-        </div>
+          {prof.company && (
+            <div>
+              <FaUsers className="icons" />
+              <p>{prof.company}</p>
+            </div>
+          )}
+          {prof.location && (
+            <div>
+              <FaMapMarkedAlt className="icons" />
+              <p>{prof.location}</p>
+            </div>
+          )}
+          {prof.blog && (
+            <div>
+              <FaLink className="icons" />
+              <p>{prof.blog}</p>
+            </div>
+          )}
         </div>
       </div>
     </>
