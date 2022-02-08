@@ -20,14 +20,10 @@
 
 ## Screenshoots
 
-<table>
-  <tr>
-    <td valign="center"><img src="./src/assets/images/github1.png" height="400px" width="225px"></td>
-    <td valign="center"><img src="./src/assets/images/github2.png" height="400px" width="225px"></td>
-  </tr>
- </table>
+1. ![github](https://user-images.githubusercontent.com/67698809/152926098-49241859-91cd-4430-b05e-4b80922cb0ec.JPG)
+2. ![github1](https://user-images.githubusercontent.com/67698809/152926115-3065115f-15dd-47ed-9a4e-0f292e5ad35d.JPG)
 
  ## Link Demo
 
- `https://app-githubrepositorylist.herokuapp.com/`
+ [`Demo`](https://app-githubrepositorylist.herokuapp.com/)
 
