@@ -20,8 +20,8 @@
 
 ## Screenshoots
 
-1. ![github](https://user-images.githubusercontent.com/67698809/152926098-49241859-91cd-4430-b05e-4b80922cb0ec.JPG)
-2. ![github1](https://user-images.githubusercontent.com/67698809/152926115-3065115f-15dd-47ed-9a4e-0f292e5ad35d.JPG)
+- ![github](https://user-images.githubusercontent.com/67698809/152926098-49241859-91cd-4430-b05e-4b80922cb0ec.JPG)
+- ![github1](https://user-images.githubusercontent.com/67698809/152926115-3065115f-15dd-47ed-9a4e-0f292e5ad35d.JPG)
 
  ## Link Demo
 
