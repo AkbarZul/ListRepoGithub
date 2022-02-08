@@ -16,7 +16,7 @@ const Search = (props) => {
             onFocus={props.onFocus}
             placeholder="Username"
           />
-          <button className="button" onClick={() => props.search}>
+          <button className="button" onClick={() => props.search()}>
             {props.loading ? <FaSpinner /> : <FaSearch />}
           </button>
         </div>

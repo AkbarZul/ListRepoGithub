@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-// import axios from "axios";
+import "./App.css";
 import { Search, RepoList, User } from "../components";
 
 const App = () => {
@@ -55,18 +55,16 @@ const App = () => {
         loading={loading}
         inputRef={inputEl}
       />
-       {user.prof.id && (
-        <div style={{ display: "flex", flexDirection: "row" }}>
-          <User prof={user.prof} />
-
-         
-            {user.repos.map(r => (
-              <li className="repo" key={r.id}>
-                <RepoList repo={r} />
-              </li>
-            ))}
-          </div>
-      )}
+      <div style={{ display: "flex", flexDirection: "row"}}>
+        <div>{user.prof.id && <User prof={user.prof} />}</div>
+        <div>
+          {user.repos.map((r) => (
+            <div className="repo" key={r.id}>
+              <RepoList repos={r} />
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 };
