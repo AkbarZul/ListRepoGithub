@@ -22,8 +22,8 @@
 
 <table>
   <tr>
-    <td valign="center"><img src="./src/assets/images/github1.jpg" height="400px" width="225px"></td>
-    <td valign="center"><img src="./src/assets/images/github2.jpg" height="400px" width="225px"></td>
+    <td valign="center"><img src="./src/assets/images/github1.png" height="400px" width="225px"></td>
+    <td valign="center"><img src="./src/assets/images/github2.png" height="400px" width="225px"></td>
   </tr>
  </table>
 
